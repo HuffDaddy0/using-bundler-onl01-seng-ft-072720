@@ -1,4 +1,5 @@
-source "https://rubygems.org"
+source "https://rubygems.org" git:
+'git@github.com:rubygems/rubygems.org.git'
 gem "rspec"
 gem "sinatra" '=1.4.4'
 gem 'hashie'
